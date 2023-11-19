@@ -59,7 +59,7 @@ $num_clientes = $query_clientes->num_rows;
                         <td><?php echo $data_cadastro ?></td>
                         <td>
                             <a href="editar_cliente.php?id=<?php echo $cliente["id"]; ?>">Editar</a>
-                            <a href="deletar_cliente.php" ?id=<?php echo $cliente["id"]; ?>>Deletar</a>
+                            <a href="deletar_cliente.php?id=<?php echo $cliente["id"]; ?>">Deletar</a>
                         </td>
 
                     </tr>
