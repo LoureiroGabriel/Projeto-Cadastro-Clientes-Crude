@@ -69,6 +69,8 @@ $num_clientes = $query_clientes->num_rows;
             ?>
         </tbody>
     </table>
+    <br>
+    <a href="./cadastar_cliente.php">Voltar</a>
 </body>
 
 </html>
