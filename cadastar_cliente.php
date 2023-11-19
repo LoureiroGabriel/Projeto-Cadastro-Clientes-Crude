@@ -53,7 +53,7 @@ if (count($_POST) > 0) {
 
 ?>
 
-?>
+
 
 
 <!DOCTYPE html>
@@ -66,7 +66,7 @@ if (count($_POST) > 0) {
 </head>
 
 <body>
-    <a href="./clientes.php">Voltar para a Lista</a>
+    <a href="./clientes.php"> Voltar para a Lista</a>
     <form action="" method="post">
         <p>
             <label for="nome">Nome:</label>
@@ -81,7 +81,7 @@ if (count($_POST) > 0) {
             <input  value = "<?php if(isset($_POST["telefone"])) echo $_POST["telefone"] ?>" placeholder="(31) 98888-8888" type="tel" name="telefone" id="telefone">
         </p>
         <p>
-            <label for="nascimento">Nascimento:</label>
+            <label for="nascimento">Data de Nascimento:</label>
             <input value = "<?php if(isset($_POST["nascimento"])) echo $_POST["nascimento"] ?>" type="text" name="nascimento" id="nascimento" placeholder="dd/mm/aaaa">
         </p>
         </p>
